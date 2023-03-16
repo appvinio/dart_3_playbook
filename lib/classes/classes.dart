@@ -30,7 +30,7 @@ interface class IC {} // Yes	No	Yes	No	No
 
 final icI = IC(); // !!!
 
-class ICE extends IC {}
+class ICE extends IC {} // !!!
 
 class ICI implements IC {}
 
