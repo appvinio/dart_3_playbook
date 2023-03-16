@@ -1,6 +1,6 @@
 // https://github.com/dart-lang/language/blob/master/accepted/future-releases/0546-patterns/feature-specification.md
 
-void chatGptKnowledge() {
+void bingKnowledge() {
   var obj;
   obj = 3;
 

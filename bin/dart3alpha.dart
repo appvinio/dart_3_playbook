@@ -12,5 +12,5 @@ void main(List<String> arguments) {
   final ice = ICE();
   print(ice.hashCode);
 
-  chatGptKnowledge();
+  bingKnowledge();
 }
