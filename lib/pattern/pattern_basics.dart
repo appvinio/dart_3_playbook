@@ -1,5 +1,20 @@
 // https://github.com/dart-lang/language/blob/master/accepted/future-releases/0546-patterns/feature-specification.md
 
+void chatGptKnowledge() {
+  var obj;
+  obj = 3;
+
+  switch (obj) {
+    case int i:
+      print("Int: $i");
+    // break; // We don't need it ;)
+    case String s:
+      print("String: $s");
+    case bool b:
+      print("bool: $b");
+  }
+}
+
 void basicsPattern1() {
   var x;
   x = 3.0;
@@ -38,7 +53,7 @@ void basicsPattern2() {
   x = Circle(3);
 
   switch (x) {
-    case Square(var a) when a > 3:
+    case Square(a: var a) when a > 3:
       print("Square bigger than 3");
     case Square():
       print("Square");
