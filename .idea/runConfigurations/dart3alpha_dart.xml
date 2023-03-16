@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="dart3alpha.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <option name="VMOptions" value="--enable-experiment=records,patterns,sealed-class" />
+    <option name="filePath" value="$PROJECT_DIR$/bin/dart3alpha.dart" />
+    <option name="workingDirectory" value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
